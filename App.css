@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Open+Sans');
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #034569;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.light-blue-bar {
+  background-color: #64AAD0;
+}
+
+.navButton:hover {
+  background-color: #64AAD0;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
